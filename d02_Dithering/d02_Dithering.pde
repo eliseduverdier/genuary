@@ -20,7 +20,7 @@ void setup() {
 }
 
 void draw(){
-  threshold = int(map(mouseY, 0, img.height, 0, 255));
+  threshold = int(map(mouseY, 0, img.height, 0, 500));
   int[][] ditheredImage = computeDithering(getImgMatrix(img));
   colorMode(HSB);
   for (int i = 0; i < ditheredImage.length ; i+=1) {
@@ -54,14 +54,18 @@ int[][] computeDithering(int[][] imageMatrix) {
     int cols = imageMatrix[0].length;
     int[][] dithered = new int[rows][cols];
 
-    for (int i = 0; i < rows-1; i++) {
+    int[] nextLineDiff = new int[rows];
+    for (int i = 1; i < rows-1; i++) {
+        nextLineDiff[i] = 0;
         int diff = 0;
         for (int j = 0; j < cols-1; j++) {
-            dithered[i][j] = imageMatrix[i][j] + diff < threshold 
+            dithered[i][j] = imageMatrix[i][j] + nextLineDiff[i-1] + diff < threshold 
               ? dark
               : light;
-            diff += imageMatrix[i][j];
+            diff += imageMatrix[i][j] / 2;
+            nextLineDiff[i] += imageMatrix[i][j] / 2;
             if (diff>255) diff=0;
+            if (nextLineDiff[i]>255) nextLineDiff[i]=0;
         }
     }
 
