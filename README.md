@@ -20,7 +20,7 @@ Fun with [Floyd–Steinberg dithering](https://en.wikipedia.org/wiki/Floyd%E2%80
 
 <!-- # day 3 | space -->
 
-# day 8 | single curve only
+# day 8 | single curve only ([try it!](https://eliseduverdier.github.io/genuary/d08_single_curve_only/))
 
 - Spirographs !
 - [Watching them drawing themselves](https://editor.p5js.org/eliseduverdier/sketches/iiqB_0n9j)
@@ -42,13 +42,13 @@ Fun with [Floyd–Steinberg dithering](https://en.wikipedia.org/wiki/Floyd%E2%80
 
 <img src="d15-Sand/gameoflife/game-of-sand.gif" height=150> <img src="d15-Sand/gameoflife/game-of-sand2.gif" height=150>
 
-# day 16 | color gradients gone wrong
+# day 16 | color gradients gone wrong ([try it!](https://eliseduverdier.github.io/genuary/d16-Color-gradients-gone-wrong/))
 
 - [Leaking rainbow](https://editor.p5js.org/eliseduverdier/sketches/kAUg9Pqlf)
 
 <img src="d16-Color-gradients-gone-wrong/dripping.gif" height=150>
 
-# day 23 | abstract vegetation
+# day 23 | abstract vegetation ([try it!](https://eliseduverdier.github.io/genuary/d23-Abstract-vegetation/))
 
 - [Flowers on a grid](https://editor.p5js.org/eliseduverdier/sketches/5fHAUClrD)
 

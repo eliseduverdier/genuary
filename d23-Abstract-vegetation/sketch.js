@@ -1,9 +1,9 @@
-
 function setup() {
     createCanvas(windowWidth, windowHeight);
-    background(0);
+    background(255);
     fill(0, 100, 80);
     colorMode(HSB);
+    blendMode(MULTIPLY);
     stroke(0);
     const baseColor = random(30, 330);
 
@@ -39,9 +39,9 @@ class Flower {
     }
 
     drawPetals() {
-        fill(this.hue, 80, 80, 0.7);
+        fill(this.hue, 80, 85, 0.7);
         stroke(0);
-        strokeWeight(1);
+        strokeWeight(0);
         let steps = TWO_PI / this.petals;
         for (let i = 0; i < TWO_PI; i += steps) {
             beginShape();
