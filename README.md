@@ -42,6 +42,18 @@ Fun with [Floyd–Steinberg dithering](https://en.wikipedia.org/wiki/Floyd%E2%80
 
 <img src="d15-Sand/gameoflife/game-of-sand.gif" height=150> <img src="d15-Sand/gameoflife/game-of-sand2.gif" height=150>
 
+# day 16 | color gradients gone wrong
+
+- [Leaking rainbow](https://editor.p5js.org/eliseduverdier/sketches/kAUg9Pqlf)
+
+<img src="d16-Color-gradients-gone-wrong/dripping-small.gif" height=150>
+
+# day 23 | abstract vegetation
+
+- [Flowers on a grid](https://editor.p5js.org/eliseduverdier/sketches/5fHAUClrD)
+
+<img src="d23-Abstract-vegetation/grid2.png" height=150> <img src="d23-Abstract-vegetation/grid3.png" height=150> <img src="d23-Abstract-vegetation/grid4.png" height=150>
+
 <!--
   <summary>
   Day #
