@@ -46,7 +46,7 @@ Fun with [Floyd–Steinberg dithering](https://en.wikipedia.org/wiki/Floyd%E2%80
 
 - [Leaking rainbow](https://editor.p5js.org/eliseduverdier/sketches/kAUg9Pqlf)
 
-<img src="d16-Color-gradients-gone-wrong/dripping-small.gif" height=150>
+<img src="d16-Color-gradients-gone-wrong/dripping.gif" height=150>
 
 # day 23 | abstract vegetation
 
