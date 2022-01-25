@@ -3,7 +3,6 @@ function setup() {
     background(255);
     fill(0, 100, 80);
     colorMode(HSB);
-    blendMode(MULTIPLY);
     stroke(0);
     const baseColor = random(30, 330);
 
@@ -14,8 +13,8 @@ function setup() {
                 j,                  // posY
                 random(40, 60),     // size
                 int(random(4, 16)), // petals
-                random(0, 1),       // curve
-                random(0, 2),       // pointy
+                random(0, 0.5),       // curve
+                random(0.1, 1),       // pointy
                 random(baseColor - 30, baseColor + 30)     // hue
             ).draw();
         }
@@ -36,11 +35,13 @@ class Flower {
     draw() {
         this.drawStem();
         this.drawPetals();
+        this.drawStigma();
     }
 
     drawPetals() {
-        fill(this.hue, 80, 85, 0.7);
+        fill(this.hue, 100, 85, 0.7);
         stroke(0);
+        blendMode(MULTIPLY);
         strokeWeight(0);
         let steps = TWO_PI / this.petals;
         for (let i = 0; i < TWO_PI; i += steps) {
@@ -63,17 +64,27 @@ class Flower {
             curveVertex(this.posX, this.posY);
             endShape(CLOSE);
         }
-        circle(this.posX, this.posY, this.size / 10);
+    }
+
+    drawStigma() {
+        fill(this.hue, 100, 85, 1);
+        stroke(255);
+        strokeWeight(1);
+        blendMode(BLEND);
+        circle(this.posX, this.posY, this.size / 3);
     }
 
     drawStem() {
-        //noFill();
-        stroke(255);
-        strokeWeight(3);
+        noFill();
+        blendMode(BLEND);
+        stroke(this.hue, 100, 85);
+        strokeWeight(2);
         beginShape();
         curveVertex(this.posX, this.posY);
-        curveVertex(this.posX + random(-5, 5), this.posY + pow(this.size, 2) / 2); // middle
-        curveVertex(this.posX, this.posY + pow(this.size, 2));
+        curveVertex(this.posX, this.posY);
+        curveVertex(this.posX + random(-5, 5), this.posY + this.size / 2); // middle
+        curveVertex(this.posX, this.posY + this.size);
+        curveVertex(this.posX, this.posY + this.size);
         endShape();
     }
 }

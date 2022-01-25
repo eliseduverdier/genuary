@@ -52,7 +52,7 @@ Fun with [Floyd–Steinberg dithering](https://en.wikipedia.org/wiki/Floyd%E2%80
 
 - [Flowers on a grid](https://editor.p5js.org/eliseduverdier/sketches/5fHAUClrD)
 
-<img src="d23-Abstract-vegetation/grid2.png" height=150> <img src="d23-Abstract-vegetation/grid3.png" height=150> <img src="d23-Abstract-vegetation/grid4.png" height=150>
+<img src="d23-Abstract-vegetation/grid2.png" height=150> <img src="d23-Abstract-vegetation/grid3.png" height=150> <img src="d23-Abstract-vegetation/grid4.png" height=150> <img src="d23-Abstract-vegetation/spiral.png" height=150>
 
 <!--
   <summary>
