@@ -46,13 +46,25 @@ Fun with [Floyd–Steinberg dithering](https://en.wikipedia.org/wiki/Floyd%E2%80
 
 - [Leaking rainbow](https://editor.p5js.org/eliseduverdier/sketches/kAUg9Pqlf)
 
-<img src="d16-Color-gradients-gone-wrong/dripping.gif" height=150>
+<!--<img src="d16-Color-gradients-gone-wrong/dripping.gif" height=150>-->
 
 # day 23 | abstract vegetation ([try it!](https://eliseduverdier.github.io/genuary/d23-Abstract-vegetation/))
 
 - [Flowers on a grid](https://editor.p5js.org/eliseduverdier/sketches/5fHAUClrD)
 
 <img src="d23-Abstract-vegetation/grid2.png" height=150> <img src="d23-Abstract-vegetation/grid3.png" height=150> <img src="d23-Abstract-vegetation/grid4.png" height=150> <img src="d23-Abstract-vegetation/spiral.png" height=150>
+
+# day 24 | Create your own pseudo-random number generator and visually check the results
+
+- [Lines, dots](https://editor.p5js.org/eliseduverdier/sketches/HgjmicX9B)
+
+<img src="d24-Create-your-own-pseudo-random-number-generator-and-visually-check-the-results/after10seconds.png" height=100 /> <img src="d24-Create-your-own-pseudo-random-number-generator-and-visually-check-the-results/after60seconds.png" height=100 /> <img src="d24-Create-your-own-pseudo-random-number-generator-and-visually-check-the-results/after120seconds.png" height=100 /> <img src="d24-Create-your-own-pseudo-random-number-generator-and-visually-check-the-results/after240seconds.png" height=100 />
+
+# day 30 Organic looking output using only rectangular shapes/organic rectangular
+
+- [Waves with rectangles rotations](https://editor.p5js.org/eliseduverdier/sketches/hA0u_B7Mz)
+
+<!--<img src="d30-Organic-looking-output-using-only-rectangular-shapes/organic-rectangular.gif" height=150/>-->
 
 <!--
   <summary>

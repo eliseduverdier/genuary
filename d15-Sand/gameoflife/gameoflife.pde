@@ -49,19 +49,10 @@ void draw() {
 
 int neighbours(int[][]game, int x, int y) {
   int count = 0;
-  int xx,yy;
   for (int i = -1; i <= 1; i++)
     for (int j = -1; j <= 1; j++)
       if (!(i==0 && j==0)) {
-        // seriously, mod doesnt even work on negative number here...
-        xx=x+i;
-        yy=y+j;
-        if (xx == -1) xx = w-1;
-        if (yy == -1) yy = h-1;
-        if (xx == w) xx = 0;
-        if (yy == h) yy = 0;
-
-        count += game[xx % (w-1)][yy % (h-1)];
+        count += game[(x+i+w) % w][(y+j+h) % h];
       }
   return count;
 }
