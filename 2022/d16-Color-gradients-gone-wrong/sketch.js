@@ -2,11 +2,12 @@ let drippingPoints = [];
 const ptsNb = 200;
 
 function setup() {
+    drippingPoints = [];
     ellipseMode(CENTER);
     colorMode(HSB);
     createCanvas(windowWidth, windowHeight);
     for (let i = 0; i < height; i++) {
-        stroke(map(i, 0, height, 0, 255), 255, 255);
+        stroke(map(i, 0, height, 0, 360), 100,100);
         line(0, i, width, i);
     }
     for (let i = 0; i < ptsNb; i++) {
@@ -28,7 +29,7 @@ class DrippingPoint {
         this.y = random(height)
         this.size = random(1, 30)
         this.shift = random(.1, 2);
-        this.hue = map(this.y, 0, height, 0, 255);
+        this.hue = map(this.y, 0, height, 0, 360);
     }
 
     drift() {
@@ -37,7 +38,7 @@ class DrippingPoint {
     }
 
     display() {
-        fill(this.hue, 255, 255, 10);
+        fill(this.hue, 100, 100, 0.1);
         ellipse(
             (this.x + width) % width,
             (this.y + height) % height,
