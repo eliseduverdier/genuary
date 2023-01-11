@@ -30,26 +30,12 @@ The Man From Earth poster colors, tweaking color sorting algorithm
 
 ### day 9 | Plants
 
-<img src="2023/09-plants/forest.png" height=200>
-<img src="2023/09-plants/lots-of-leaves.png" height=200>
-<img src="2023/09-plants/plants.png" height=200>
+<img src="2023/09-plants/forest.png" height=200> <img src="2023/09-plants/lots-of-leaves.png" height=200> <img src="2023/09-plants/plants.png" height=200>
 
 ### day 11 | Suprematism
-<img src="2023/11-suprematism/2D/1.jpg" height=100>
-<img src="2023/11-suprematism/2D/2.jpg" height=100>
-<img src="2023/11-suprematism/2D/3.jpg" height=100>
-<img src="2023/11-suprematism/2D/4.jpg" height=100>
-<img src="2023/11-suprematism/2D/5.jpg" height=100>
-<img src="2023/11-suprematism/2D/6.jpg" height=100>
-<img src="2023/11-suprematism/2D/7.jpg" height=100>
+<img src="2023/11-suprematism/2D/1.jpg" height=100> <img src="2023/11-suprematism/2D/2.jpg" height=100> <img src="2023/11-suprematism/2D/3.jpg" height=100> <img src="2023/11-suprematism/2D/4.jpg" height=100> <img src="2023/11-suprematism/2D/5.jpg" height=100> <img src="2023/11-suprematism/2D/6.jpg" height=100> <img src="2023/11-suprematism/2D/7.jpg" height=100>
 
-<img src="2023/11-suprematism/3D/1.png" height=100>
-<img src="2023/11-suprematism/3D/2.png" height=100>
-<img src="2023/11-suprematism/3D/3.png" height=100>
-<img src="2023/11-suprematism/3D/4.png" height=100>
-<img src="2023/11-suprematism/3D/5.png" height=100>
-<img src="2023/11-suprematism/3D/6.png" height=100>
-<img src="2023/11-suprematism/3D/7.png" height=100>
+<img src="2023/11-suprematism/3D/1.png" height=100> <img src="2023/11-suprematism/3D/2.png" height=100> <img src="2023/11-suprematism/3D/3.png" height=100> <img src="2023/11-suprematism/3D/4.png" height=100> <img src="2023/11-suprematism/3D/5.png" height=100> <img src="2023/11-suprematism/3D/6.png" height=100> <img src="2023/11-suprematism/3D/7.png" height=100>
 
 <!--
 ### day 4 | Intersections
