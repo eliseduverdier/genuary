@@ -1,0 +1,5 @@
+- [#02 Dithering](d02_Dithering/)
+- [#08 ⭐ Single_curve_only (Spirograph)](d08_single_curve_only/)
+- [#13 80x800](d13-80x800/)
+- [#16 ⭐ Color-gradients-gone-wrong](d16-Color-gradients-gone-wrong/)
+- [#23 ⭐ Abstract-vegetation](d23-Abstract-vegetation/)

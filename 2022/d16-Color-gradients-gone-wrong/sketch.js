@@ -1,4 +1,4 @@
-const drippingPoints = [];
+let drippingPoints = [];
 const ptsNb = 200;
 
 function setup() {
@@ -7,7 +7,7 @@ function setup() {
     createCanvas(windowWidth, windowHeight);
     for (let i = 0; i < height; i++) {
         stroke(map(i, 0, height, 0, 255), 255, 255);
-        line(0, i, height, i);
+        line(0, i, width, i);
     }
     for (let i = 0; i < ptsNb; i++) {
         drippingPoints.push(new DrippingPoint());
@@ -16,8 +16,8 @@ function setup() {
 }
 function draw() {
     for (let i = 0; i < ptsNb; i++) {
-        pts[i].drift();
-        pts[i].display();
+        drippingPoints[i].drift();
+        drippingPoints[i].display();
     }
 }
 function mousePressed() { setup(); }
@@ -28,7 +28,7 @@ class DrippingPoint {
         this.y = random(height)
         this.size = random(1, 30)
         this.shift = random(.1, 2);
-        this.hue = hue(get(int(this.x), int(this.y)));
+        this.hue = map(this.y, 0, height, 0, 255);
     }
 
     drift() {
