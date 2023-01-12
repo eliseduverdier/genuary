@@ -27,7 +27,6 @@ The Man From Earth poster colors, tweaking color sorting algorithm
 
 <img src="2023/07-sample-color-palette/sorts/grid.jpg" height=200>
 
-
 ### day 9 | Plants
 
 <img src="2023/09-plants/forest.png" height=200> <img src="2023/09-plants/lots-of-leaves.png" height=200> <img src="2023/09-plants/plants.png" height=200>
@@ -37,6 +36,9 @@ The Man From Earth poster colors, tweaking color sorting algorithm
 
 <img src="2023/11-suprematism/3D/1.png" height=100> <img src="2023/11-suprematism/3D/2.png" height=100> <img src="2023/11-suprematism/3D/3.png" height=100> <img src="2023/11-suprematism/3D/4.png" height=100> <img src="2023/11-suprematism/3D/5.png" height=100> <img src="2023/11-suprematism/3D/6.png" height=100> <img src="2023/11-suprematism/3D/7.png" height=100>
 
+### day 12 | Tessellation (also day 23 | More Moiré)
+<img src="2023/12-tesselation/tesselation.gif" height=200> <img src="2023/12-tesselation/tesselation-color.gif" height=200>
+
 <!--
 ### day 4 | Intersections
 
@@ -44,17 +46,9 @@ The Man From Earth poster colors, tweaking color sorting algorithm
 
 ### day 6 | Steal Like An Artist
 
-### day 7 | Sample a color palette from your favorite movie/album cover
-
 ### day 8 | Signed Distance Functions
 
-### day 9 | Plants
-
 ### day 10 | Generative music
-
-### day 11 | Suprematism
-
-### day 12 | Tessellation
 
 ### day 13 | Something you’ve always wanted to learn
 
