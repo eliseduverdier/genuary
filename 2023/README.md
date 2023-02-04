@@ -4,3 +4,7 @@
 - [#09 ⭐ Plants](09-plants/)
 - [#11 ⭐ Suprematism](11-suprematism/)
 - [#11 ⭐ Suprematism 3D](11-suprematism/3D.html)
+- [#14 ⭐ Aesemic](14-aesemic/)
+- [#23 More Moiré](23-more-moire/)
+- [#29 ⭐ Maximalism](29-maximalism/)
+- [#29 Minimalism](30-minimalism/)
